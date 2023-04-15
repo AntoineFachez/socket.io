@@ -1,0 +1,47 @@
+[debug] [2023-04-15T13:41:51.249Z] ----------------------------------------------------------------------
+[debug] [2023-04-15T13:41:51.251Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-04-15T13:41:51.251Z] CLI Version:   11.25.1
+[debug] [2023-04-15T13:41:51.251Z] Platform:      darwin
+[debug] [2023-04-15T13:41:51.252Z] Node Version:  v16.13.1
+[debug] [2023-04-15T13:41:51.253Z] Time:          Sat Apr 15 2023 15:41:51 GMT+0200 (Central European Summer Time)
+[debug] [2023-04-15T13:41:51.253Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-15T13:41:51.257Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-15T13:41:51.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-15T13:41:51.281Z] > authorizing via signed-in user (anthony.zornig@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/anthonyzornig/devFold/socket-io/client/my-app
+
+[debug] [2023-04-15T13:41:51.590Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-04-15T13:41:51.591Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-15T13:50:46.970Z] > refreshing access token with scopes: []
+[debug] [2023-04-15T13:50:46.971Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-15T13:50:46.972Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-15T13:50:47.114Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-15T13:50:47.114Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-15T13:50:47.137Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-15T13:50:47.742Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-15T13:50:47.743Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project socket-io-bdf49 (Socket-io) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
